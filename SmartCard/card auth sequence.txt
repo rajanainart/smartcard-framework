@@ -1,0 +1,21 @@
+verify -> password - card2
+manage security -> seid input 2 (not set), crt (set)  - restore function, verify - card2 
+manage security -> set (urn) a4  card2
+get challenge -> challenge value card2
+internal auth ->  getchall input 81p2 card1
+get response - card1
+external auth - get response 81 - card2
+get challeng - card1
+manage security - seid 8 card2 computation
+manage security - crt a4 card2
+internal auth -  card2 87p2
+get resp card2 
+external auth card1 83
+
+
+        VERIFY               = 0x20,
+        MANAGE_SECURITY_ENV  = 0x22,
+        GET_CHALLENGE        = 0x84,
+        INTERNAL_AUTH        = 0x88,
+        GET_RESPONSE         = 0xC0,
+        EXTERNAL_MUTUAL_AUTH = 0x82

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{29D11A3F-8B12-4769-A8CD-CF11DA41D381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCard", "SmartCard\SmartCard.csproj", "{A8BFABED-3843-4108-BBB2-F3A6A149D22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D11A3F-8B12-4769-A8CD-CF11DA41D381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D11A3F-8B12-4769-A8CD-CF11DA41D381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D11A3F-8B12-4769-A8CD-CF11DA41D381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D11A3F-8B12-4769-A8CD-CF11DA41D381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BFABED-3843-4108-BBB2-F3A6A149D22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BFABED-3843-4108-BBB2-F3A6A149D22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BFABED-3843-4108-BBB2-F3A6A149D22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BFABED-3843-4108-BBB2-F3A6A149D22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A385A768-9753-4C47-AD05-C73BB6CA7768}
+	EndGlobalSection
+EndGlobal
